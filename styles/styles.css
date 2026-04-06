@@ -110,7 +110,9 @@ header img {
     margin-left: 25px;
 }
 
+/* ZALIA: This is right next to the image, need to fix that */
 header h1 {
+    text-align: center;
     align-items: center;
     justify-content: center;
 }
@@ -156,7 +158,7 @@ footer {
 
 .index .fake-button {
     width: 250px;
-    margin-right: 150px;
+    margin-left: 150px;
 }
 
 
