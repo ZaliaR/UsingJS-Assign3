@@ -110,9 +110,9 @@ header img {
     margin-left: 25px;
 }
 
-/* ZALIA: This is right next to the image, need to fix that */
 header h1 {
-    text-align: center;
+    display: flex;
+    margin: 0 auto;
     align-items: center;
     justify-content: center;
 }
@@ -125,6 +125,9 @@ main {
 footer {
     height: 60px;
     font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -178,15 +181,51 @@ footer {
 
 */
 
+.booking-page {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
 
+.booking-page p {
+    font-size: 18px;
+}
 
+.booking-page ul {
+    margin-bottom: 12px;
+}
 
+.booking-page li {
+    margin-right: 20px;
+    width: 60px;
+}
 
+.booking-page li, .booking-page .small-button {
+    border: 1px solid black;
+}
 
+.booking-page .small-button {
+    padding: 5px;
+}
 
+.top-margin {
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
 
+#clear-button {
+    width: 200px;
+}
 
-
+.clicked {
+    background-color: #E5AF42;
+}
 
 
 
