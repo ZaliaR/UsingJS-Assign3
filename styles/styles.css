@@ -238,6 +238,36 @@ footer {
     - the edges of the button will line up exactly with the text-area element. HINT: time for some math!
 */
 
+.contact-page {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
 
+label {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-right: 24px;
+}
 
+input {
+    width: 300px;
+}
 
+textarea {
+    height: 150px;
+}
+
+input, textarea, button {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    border: 1px solid black;
+    margin-bottom: 24px;
+}
