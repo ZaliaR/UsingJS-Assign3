@@ -238,20 +238,16 @@ footer {
     - the edges of the button will line up exactly with the text-area element. HINT: time for some math!
 */
 
-.contact-page {
+.contact {
     height: 420px;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    text-align: center;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 label {
     width: 150px;
-    display: flex;
-    flex-direction: column;
     text-align: right;
     margin-right: 24px;
 }
@@ -262,6 +258,12 @@ input {
 
 textarea {
     height: 150px;
+    width: 300px;
+}
+
+/* Only remaining issue that I can see. Button not lined up with text area. */
+button {
+    width: 300px;
 }
 
 input, textarea, button {

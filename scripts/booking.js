@@ -3,14 +3,19 @@
 // Do any of these variables need to be initialized when the page is loaded? 
 // When do they need to be reset or updated?
 
-
-
+let dayCost = 20;
+let dayNum = 0;
+let day = document.querySelectorAll(".day-selector");
 
 /********* colour change days of week *********/
 // when the day buttons are clicked, we will apply the "clicked" class to that element, and update any other relevant variables. Then, we can recalculate the total cost.
 // added challenge: don't update the dayCounter if the same day is clicked more than once. hint: .classList.contains() might be helpful here!
 
-
+daySelect.addEventListener("click", dayClicked);
+var dayClicked = function(day, dayNum) {
+  day.classList.add(".clicked");
+  dayNum += 1;
+}
 
 
 
