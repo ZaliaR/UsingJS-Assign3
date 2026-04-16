@@ -8,4 +8,4 @@ const contactMain = document.querySelector(".contact");
 button.addEventListener("click", () => {
   contactMain.innerHTML = "<p>Thank you for your message!</p>";
   contactMain.style.fontSize = "24px";
-})
+});
